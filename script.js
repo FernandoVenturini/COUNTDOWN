@@ -32,7 +32,7 @@ const contagemRegressiva = function (tempo) { // 1- Criando a função contagemR
 }
 
 const tempoRestante = function() { // 13- Função tempoRestante
-    const dataEvento = new Date('2022-12-25 00:00:00'); // 14- data do evento + horas.
+    const dataEvento = new Date('2023-01-01 00:00:00'); // 14- data do evento + horas.
     const dataHoje = Date.now(); // 15- data de hoje.
 
     return Math.floor((dataEvento - dataHoje) / 1000); // 16- return
