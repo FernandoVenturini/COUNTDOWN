@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('./image/newyear.jpg');
+    background-image: url('./image/happy_birthday.jpg');
     background-size: cover;
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
@@ -25,9 +25,13 @@ body {
 }
 
 .title {
-    font-size: calc(10px + 0.5vw);
+    /*font-size: calc(10px + 0.5vw);*/
     text-transform: uppercase;
     color: red;
+}
+
+.title h1 {
+    font-size: 5rem;
 }
 
 .title p {
